@@ -42,6 +42,7 @@
 [vue-cli]: https://img.shields.io/badge/-Vue%20Cli-3eb782
 [nvue]: https://img.shields.io/badge/-!NVue-ff0000
 [vscode]: https://img.shields.io/badge/-VSCode-3c7fba?logo=visual-studio-code
+[webstorm]: https://img.shields.io/badge/-WebStorm-000000?logo=WebStorm
 [typescript]: https://img.shields.io/npm/types/typescript
 
 在下面的内容中，我们使用徽章来指示部分组件、库、插件的版本、平台、语言兼容性，其中徽章的颜色和开头用来表示支持程度。
@@ -52,7 +53,7 @@
   - ![vue2] 仅支持 Vue 2
 
 - 打包器兼容性，没有则都兼容
-  - ![vue-cli] 仅支持 Vue Cli
+  - ![vue-cli] 仅支持 Vue CLI
   - ![vite] 仅支持 Vite
 - 平台兼容性，由于平台涉及比较多，具体兼容性在仓库的 Readme 中声明
 - 写法兼容性，没有则都兼容
@@ -65,8 +66,14 @@
 ## 模板
 
 - [uni-preset-vue](https://github.com/dcloudio/uni-preset-vue) ![stars](https://img.shields.io/github/stars/dcloudio/uni-preset-vue) - uni-app 官方模板。
-- ![vue3] [starter-uni](https://github.com/zguolee/starter-uni) ![stars](https://img.shields.io/github/stars/zguolee/starter-uni) - 一个使用 Vue3 + Vite + UnoCSS + AnoUI 的 uni-app 开始模版。
+<!-- - ![vue3] [starter-uni](https://github.com/zguolee/starter-uni) ![stars](https://img.shields.io/github/stars/zguolee/starter-uni) - 一个使用 Vue3 + Vite + UnoCSS + AnoUI 的 uni-app 开始模版。 -->
 - ![vue3] [vitesse-uni-app](https://github.com/uni-helper/vitesse-uni-app) ![stars](https://img.shields.io/github/stars/uni-helper/vitesse-uni-app) - 由 uni-helper 支持的开始模板。
+- ![vue3] [unisave](https://github.com/sunpm/unisave) ![stars](https://img.shields.io/github/stars/sunpm/unisave) - 拥抱 web 开发，拯救 uniapp。适配所有(app、mp、web)平台！！！
+- ![vue3] [uniapp-template](https://github.com/yang1206/uniapp-template) ![stars](https://img.shields.io/github/stars/yang1206/uniapp-template) - 基于 Vite、UnoCSS 和 TypeScript 的 uni-app 起始模版。
+- ![vue3] [wot-starter](https://github.com/Moonofweisheng/wot-starter) ![stars](https://img.shields.io/github/stars/Moonofweisheng/wot-starter) - 基于 wot-design-uni 的 uni-app 快速启动模板。
+- ![vue3] [unibest](https://github.com/codercup/unibest) ![stars](https://img.shields.io/github/stars/codercup/unibest) - uni-app 开发框架，内置大量基础功能，提供大量辅助功能。
+- ![vue3] [uni-vitesse](https://github.com/Ares-Chang/uni-vitesse) ![stars](https://img.shields.io/github/stars/Ares-Chang/uni-vitesse) - uni-app 版的 vitesse-lite
+- ![vue3] [uni-preset-vue3-vite](https://github.com/gitboyzcf/uni-preset-vue3-vite) ![stars](https://img.shields.io/github/stars/gitboyzcf/uni-preset-vue3-vite) - 基于 Vue3、Pinia、Vite、UnoCSS、nutui-uniapp，简单快速使用 uni-app 开发小程序和 H5
 
 ## 演示
 
@@ -80,6 +87,7 @@
 - ![vue3] [uni-use](https://github.com/uni-helper/uni-use) ![stars](https://img.shields.io/github/stars/uni-helper/uni-use) - uni-app 组合式工具集。
 - [unocss-applet](https://github.com/unocss-applet/unocss-applet) ![stars](https://img.shields.io/github/stars/unocss-applet/unocss-applet) - 在小程序中使用 UnoCSS，兼容不支持的语法。
 - [unocss-preset-uni](https://github.com/uni-helper/unocss-preset-uni) ![stars](https://img.shields.io/github/stars/uni-helper/unocss-preset-uni) - 专为 uni-app 打造的 UnoCSS 预设。
+- [uni-use-router](https://github.com/Ares-Chang/uni-use-router) ![stars](https://img.shields.io/github/stars/Ares-Chang/uni-use-router) - uni-app 路由补充，与 vue-router 语法靠近。
 
 ## UI 组件库
 
@@ -106,6 +114,7 @@
 - ![vite] [vite-plugin-uni-platform](https://github.com/uni-helper/vite-plugin-uni-platform) ![stars](https://img.shields.io/github/stars/uni-helper/vite-plugin-uni-platform) - 基于文件名 (_.<h5|mp-weixin|app>._) 的按平台编译插件。
 - ![vite] [vite-plugin-uni-components](https://github.com/uni-helper/vite-plugin-uni-components) ![stars](https://img.shields.io/github/stars/uni-helper/vite-plugin-uni-components) - 适用于 uni-app 的按需自动引入组件。
 - ![vite] [vite-plugin-uni-platform-modifier](https://github.com/uni-helper/vite-plugin-uni-platform-modifier) ![stars](https://img.shields.io/github/stars/uni-helper/vite-plugin-uni-platform-modifier) - 为属性、指令提供平台修饰符并按需编译。
+- ![vite] ![vue3] [uni-ku-root](https://github.com/uni-ku/root) ![stars](https://img.shields.io/github/stars/uni-ku/root) - 一个模拟 App.vue 原有能力的根组件插件
 
 ## 编辑器 / IDE 插件
 
@@ -115,6 +124,7 @@
 - ![vscode] [uni-cloud-snippets-vscode](https://github.com/uni-helper/uni-cloud-snippets-vscode) ![stars](https://img.shields.io/github/stars/uni-helper/uni-cloud-snippets-vscode) - uni-cloud 基本能力代码片段。
 - ![vscode] [uni-ui-snippets-vscode](https://github.com/uni-helper/uni-ui-snippets-vscode) ![stars](https://img.shields.io/github/stars/uni-helper/uni-ui-snippets-vscode) - uni-ui 基本能力代码片段。
 - ![vscode] [uni-highlight-vscode](https://github.com/uni-helper/uni-highlight-vscode) ![stars](https://img.shields.io/github/stars/uni-helper/uni-highlight-vscode) - 对条件编译的代码注释部分提供了语法提示、高亮、折叠。
+- ![webstorm] [Uniapp Tool](https://plugins.jetbrains.com/plugin/21470-uniapp-tool) ![stars](https://img.shields.io/github/stars/lqc520/uniapp-plugin) - 增强 uni-app 在 Webstorm 内的体验。
 
 ## 类型
 
